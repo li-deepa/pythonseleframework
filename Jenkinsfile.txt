@@ -1,8 +1,8 @@
 pipeline {
     agent  {
     node {
-        label 'bat label'
-        customWorkspace 'PYENV_HOME=$WORKSPACE/tests/.pyenv/'
+
+        customWorkspace '$WORKSPACE/tests/*.py/'
     }
   }
 
@@ -15,10 +15,5 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            junit 'build/reports/*.xml'
-        }
-
 
 }}

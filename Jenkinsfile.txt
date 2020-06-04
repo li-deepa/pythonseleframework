@@ -3,10 +3,12 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                
-                sh "pip install -r requirements.txt"
-                sh "python -m compileall ."
-                sh 'py.test'
+                bat label: '', script: '''PYENV_HOME=$WORKSPACE/tests/.pyenv/
+                virtualenv --no-site-packages $PYENV_HOME
+                source $PYENV_HOME/bin/activate
+                pip install -U pytest
+                pip install -r requirements.txt
+                deactivate'''
 
             }
         }

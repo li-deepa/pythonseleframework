@@ -2,7 +2,7 @@ pipeline {
     agent any {
     node {
         label 'my-defined-label'
-        customWorkspace 'C:\Users\DEEPA\pythonseleframework\tests'
+        customWorkspace 'C:/Users/DEEPA/pythonseleframework/tests'
     }
   }
 

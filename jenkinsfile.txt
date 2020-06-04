@@ -1,0 +1,34 @@
+pipeline {
+    agent {
+    node {
+        label 'my-defined-label'
+        customWorkspace 'C:\Users\DEEPA\pythonseleframework'
+    }
+  }
+     agent any
+    stages {
+        stage('Build') {
+            steps {
+                sh 'echo "This is my first step"'
+    }
+  }
+        stage('Test') {
+            steps {
+                withpytest(pytest:'pytest-5.4.3')
+                sh 'py.test -v'
+            }
+        }
+    }
+    post {
+        always {
+            junit 'build/reports/*.xml'
+        }
+    }
+    post {
+    failure {
+       mail to: 'deepagorrela@gmail.com',
+      subject: "Pipeline has failed: ${currentBuild.fullDisplayName}",
+      body: "Error in ${env.BUILD_URL}"
+  }
+}
+  }

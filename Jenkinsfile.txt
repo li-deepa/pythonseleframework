@@ -4,7 +4,7 @@ pipeline {
 
     node('MYNODE')
 
-{ bat ''echo ON '''
+{ bat ''echo ON ''';
   bat label: '', script: '''PYENV_HOME=$WORKSPACE/tests/.pyenv/
 }
     }

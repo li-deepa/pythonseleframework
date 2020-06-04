@@ -4,14 +4,13 @@ pipeline {
 
     node('MYNODE')
 
-{ bat ''echo ON ''';
-  bat label: '', script: '''PYENV_HOME=$WORKSPACE/tests/.pyenv/
+{ bat ''echo ON '''
 }
     }
     stages {
         stage('Test') {
             steps {
-
+                  bat label: '', script: '''PYENV_HOME=$WORKSPACE/tests/.pyenv/
                 virtualenv --no-site-packages $PYENV_HOME
                 source $PYENV_HOME/bin/activate
                 pip install -U pytest

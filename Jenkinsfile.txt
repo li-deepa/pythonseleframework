@@ -1,8 +1,8 @@
 pipeline {
     agent  {
     node {
-        bat label: '', script: '''PYENV_HOME=$WORKSPACE/tests/.pyenv/'''
-
+        label 'bat label'
+        customWorkspace 'PYENV_HOME=$WORKSPACE/tests/.pyenv/'
     }
   }
 

@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                withpytest(pytest:'pytest-5.4.3')
-                sh 'py.test -v'
+                 sh 'py.test -v'
             }
         }
     }

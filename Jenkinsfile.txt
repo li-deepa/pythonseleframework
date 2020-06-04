@@ -5,7 +5,7 @@ pipeline {
         customWorkspace 'C:/Users/DEEPA/pythonseleframework/tests'
     }
   }
- agent any {
+
     stages {
         stage('Test') {
             steps {
@@ -24,6 +24,6 @@ pipeline {
        mail to: 'deepagorrela@gmail.com',
       subject: "Pipeline has failed: ${currentBuild.fullDisplayName}",
       body: "Error in ${env.BUILD_URL}"
-  }
+
 }}
   }

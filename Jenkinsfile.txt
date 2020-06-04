@@ -6,10 +6,10 @@ pipeline {
                 label 'windows'
             }
             steps {
-                bat 'label: '', script: '''cd tests
+                bat label: '', script: '''cd tests
                     pip install -r requirements.txt
                     py.test test_e2e.py
-                    ''''
+                    '''
             }
             post {
                 always {

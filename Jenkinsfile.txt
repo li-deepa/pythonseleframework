@@ -18,8 +18,7 @@ pipeline {
         always {
             junit 'build/reports/*.xml'
         }
-    }
-    post {
+
     failure {
        mail to: 'deepagorrela@gmail.com',
       subject: "Pipeline has failed: ${currentBuild.fullDisplayName}",

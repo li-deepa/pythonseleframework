@@ -1,7 +1,8 @@
 pipeline {
     agent  {
     node {
-
+           label 'windows'
+         checkout scm
         customWorkspace '$WORKSPACE/tests/*.py/'
     }
   }

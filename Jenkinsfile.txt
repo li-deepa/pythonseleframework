@@ -6,8 +6,8 @@ pipeline {
                 label 'windows'
             }
             steps {
-                bat script: '''cd tests
-                    pip install -r requirements.txt
+                bat script: '''cd tests;
+                    pip install -r requirements.txt;
                     py.test test_e2e.py'''
 
             }

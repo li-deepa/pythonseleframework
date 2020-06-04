@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fc71f56-68b9-4373-9424-88f51d771264" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/tests/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jenkinsfile.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utilities/BaseClass.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/test_e2e.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/conftest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/jenkinsfile" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/jenkinsfile.txt" />
+        <option value="$PROJECT_DIR$/jenkinsfile.txt" />
+        <option value="$PROJECT_DIR$/utilities/BaseClass.py" />
+        <option value="$PROJECT_DIR$/Jenkinsfile.txt" />
+        <option value="$PROJECT_DIR$/tests/test_e2e.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="width" value="1370" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pythonseleframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonseleframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonseleframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonseleframework" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonseleframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pythonseleframework" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pythonseleframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="pythonseleframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fc71f56-68b9-4373-9424-88f51d771264" name="Default Changelist" comment="" />
+      <created>1591241709401</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591241709401</updated>
+    </task>
+    <task id="LOCAL-00001" summary="jenkins pipeline file added">
+      <created>1591250409723</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591250409723</updated>
+    </task>
+    <task id="LOCAL-00002" summary="jenkins pipeline file modified">
+      <created>1591250523489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591250523489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="jenkins pipeline file modified">
+      <created>1591250906965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1591250906965</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jenkins pipeline file modified">
+      <created>1591252253722</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1591252253722</updated>
+    </task>
+    <task id="LOCAL-00005" summary="jenkins pipeline file modified">
+      <created>1591252482256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1591252482256</updated>
+    </task>
+    <task id="LOCAL-00006" summary="jenkins pipeline file modified">
+      <created>1591255258404</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1591255258404</updated>
+    </task>
+    <task id="LOCAL-00007" summary="jenkins pipeline file modified">
+      <created>1591255281796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1591255281796</updated>
+    </task>
+    <task id="LOCAL-00008" summary="jenkins pipeline file modified">
+      <created>1591255399843</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1591255399843</updated>
+    </task>
+    <task id="LOCAL-00009" summary="jenkins pipeline file modified">
+      <created>1591255655700</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591255655700</updated>
+    </task>
+    <task id="LOCAL-00010" summary="jenkins pipeline file modified">
+      <created>1591255745164</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1591255745164</updated>
+    </task>
+    <task id="LOCAL-00011" summary="jenkins pipeline file modified">
+      <created>1591255793179</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1591255793179</updated>
+    </task>
+    <task id="LOCAL-00012" summary="jenkins pipeline file modified">
+      <created>1591255857205</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1591255857205</updated>
+    </task>
+    <task id="LOCAL-00013" summary="jenkins pipeline file modified">
+      <created>1591256184605</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1591256184605</updated>
+    </task>
+    <task id="LOCAL-00014" summary="jenkins pipeline file modified">
+      <created>1591256307587</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1591256307587</updated>
+    </task>
+    <task id="LOCAL-00015" summary="jenkins pipeline file modified">
+      <created>1591256765955</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1591256765955</updated>
+    </task>
+    <task id="LOCAL-00016" summary="jenkins pipeline file modified">
+      <created>1591256998325</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1591256998325</updated>
+    </task>
+    <task id="LOCAL-00017" summary="jenkins pipeline file modified">
+      <created>1591257153034</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1591257153034</updated>
+    </task>
+    <task id="LOCAL-00018" summary="jenkins pipeline file modified">
+      <created>1591295871733</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1591295871742</updated>
+    </task>
+    <task id="LOCAL-00019" summary="jenkins pipeline file modified">
+      <created>1591295997642</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1591295997642</updated>
+    </task>
+    <task id="LOCAL-00020" summary="jenkins pipeline file modified">
+      <created>1591296778624</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1591296778624</updated>
+    </task>
+    <task id="LOCAL-00021" summary="jenkins pipeline file modified">
+      <created>1591298863748</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1591298863748</updated>
+    </task>
+    <task id="LOCAL-00022" summary="jenkins pipeline file modified">
+      <created>1591299156089</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1591299156089</updated>
+    </task>
+    <task id="LOCAL-00023" summary="jenkins pipeline file modified">
+      <created>1591299276790</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1591299276790</updated>
+    </task>
+    <task id="LOCAL-00024" summary="jenkins pipeline file modified">
+      <created>1591299299481</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591299299481</updated>
+    </task>
+    <task id="LOCAL-00025" summary="jenkins pipeline file modified">
+      <created>1591299475455</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1591299475455</updated>
+    </task>
+    <task id="LOCAL-00026" summary="jenkins pipeline file modified">
+      <created>1591299574320</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1591299574320</updated>
+    </task>
+    <task id="LOCAL-00027" summary="jenkins pipeline file modified">
+      <created>1591299710745</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1591299710745</updated>
+    </task>
+    <task id="LOCAL-00028" summary="jenkins pipeline file modified">
+      <created>1591299955301</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1591299955301</updated>
+    </task>
+    <task id="LOCAL-00029" summary="jenkins pipeline file modified">
+      <created>1591300047984</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1591300047984</updated>
+    </task>
+    <task id="LOCAL-00030" summary="jenkins pipeline file modified">
+      <created>1591300120125</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1591300120125</updated>
+    </task>
+    <task id="LOCAL-00031" summary="jenkins pipeline file modified">
+      <created>1591300355495</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1591300355495</updated>
+    </task>
+    <task id="LOCAL-00032" summary="jenkins pipeline file modified">
+      <created>1591301289536</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1591301289536</updated>
+    </task>
+    <task id="LOCAL-00033" summary="jenkins pipeline file modified">
+      <created>1591301376844</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1591301376844</updated>
+    </task>
+    <task id="LOCAL-00034" summary="jenkins pipeline file modified">
+      <created>1591301583877</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1591301583877</updated>
+    </task>
+    <task id="LOCAL-00035" summary="jenkins pipeline file modified">
+      <created>1591301981410</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1591301981410</updated>
+    </task>
+    <task id="LOCAL-00036" summary="jenkins pipeline file modified">
+      <created>1591303269207</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1591303269207</updated>
+    </task>
+    <task id="LOCAL-00037" summary="jenkins pipeline file modified">
+      <created>1591303493169</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1591303493169</updated>
+    </task>
+    <task id="LOCAL-00038" summary="jenkins pipeline file modified">
+      <created>1591303565911</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1591303565911</updated>
+    </task>
+    <task id="LOCAL-00039" summary="jenkins pipeline file modified">
+      <created>1591303587096</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1591303587096</updated>
+    </task>
+    <task id="LOCAL-00040" summary="jenkins pipeline file modified">
+      <created>1591303639861</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1591303639861</updated>
+    </task>
+    <task id="LOCAL-00041" summary="jenkins pipeline file modified">
+      <created>1591303770508</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1591303770508</updated>
+    </task>
+    <task id="LOCAL-00042" summary="jenkins pipeline file modified">
+      <created>1591303926877</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1591303926877</updated>
+    </task>
+    <task id="LOCAL-00043" summary="jenkins pipeline file modified">
+      <created>1591304070752</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1591304070752</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="0" width="1096" height="864" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35660377" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49811321" visible="true" weight="0.33424285" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5018868" side_tool="true" visible="true" weight="0.33424285" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="jenkins pipeline file added" />
+    <MESSAGE value="jenkins pipeline file modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkins pipeline file modified" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_e2e.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jenkinsfile" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/jenkinsfile.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/BaseClass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_e2e.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

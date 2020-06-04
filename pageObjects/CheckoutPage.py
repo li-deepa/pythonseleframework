@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from PythonSelFramework.pageObjects.ConfirmPage import ConfirmPage
+from pageObjects.ConfirmPage import ConfirmPage
 
 
 

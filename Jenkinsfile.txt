@@ -4,7 +4,7 @@ agent any
     stage('Test on Windows') {
 
             steps {
-                bat script: '''cd tests;
+                bat script: '''tests;
                     pip install -r requirements.txt;
                     py.test test_e2e.py'''
 

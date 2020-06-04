@@ -1,29 +1,31 @@
 pipeline {
-    agent  any
-    {
+    agent  {
+    node {
+        bat label: '', script: '''PYENV_HOME=$WORKSPACE/tests/.pyenv/
 
-    node('MYNODE')
-
-{ bat ''echo ON '''
-}
     }
+  }
+
     stages {
         stage('Test') {
             steps {
-                sh'bat label: '', script: '''PYENV_HOME=$WORKSPACE/tests/.pyenv/'
-                sh'virtualenv --no-site-packages $PYENV_HOME'
-                sh'source $PYENV_HOME/bin/activate'
                 sh'pip install -U pytest'
-                sh'pip install -r requirements.txt'
-
-
+                 sh'pip install -r requirements.txt'
+                sh 'py.test -v'
             }
         }
     }
     post {
         always {
-            sh'py.test --junit='reports/*.xml''
+            junit 'build/reports/*.xml'
         }
 
+    failure {
+       mail to: 'deepagorrela@gmail.com',
+      subject: "Pipeline has failed: ${currentBuild.fullDisplayName}",
+      body: "Error in ${env.BUILD_URL}"
+
+}}
+  }
 
 }}

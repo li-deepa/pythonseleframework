@@ -1,7 +1,7 @@
 from utilities.BaseClass import BaseClass
 import pytest
-from pageObjects.HomePage import HomePage
-from TestData.HomePageData import HomePageData
+from pythonseleframework.pageObjects.HomePage import HomePage
+from pythonseleframework.TestData.HomePageData import HomePageData
 
 class TestTwo(BaseClass):
 

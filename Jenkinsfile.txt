@@ -1,19 +1,20 @@
 pipeline {
-    agent  {
-    node {
-           label 'windows'
-                 customWorkspace '$WORKSPACE/tests/*.py/'
-    }
-  }
 
-    stages {
-        stage('Test') {
-            steps {
-                sh'pip install -U pytest'
-                 sh'pip install -r requirements.txt'
-                sh 'py.test -v'
+ stages{
+    stage('Test on Windows') {
+            agent {
+                label 'windows'
             }
-        }
-    }
-
+            steps {
+                bat 'label: '', script: '''cd tests
+                    pip install -r requirements.txt
+                    py.test test_e2e.py
+                    ''''
+            }
+            post {
+                always {
+                    junit '**/target/*.xml'
+                }
 }
+
+}}}

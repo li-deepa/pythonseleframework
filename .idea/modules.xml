@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pythonseleframework.iml" filepath="$PROJECT_DIR$/.idea/pythonseleframework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PythonSelFramework.iml" filepath="$PROJECT_DIR$/.idea/PythonSelFramework.iml" />
     </modules>
   </component>
 </project>

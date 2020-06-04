@@ -3,9 +3,11 @@ pipeline {
     stages {
         stage('Test') {
             steps {
-                sh'cd tests'
-                sh 'py.test --browsername chrome'
                 
+                sh "pip install -r requirements.txt"
+                sh "python -m compileall ."
+                sh 'py.test'
+
             }
         }
     }

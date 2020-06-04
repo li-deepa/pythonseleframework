@@ -6,6 +6,7 @@ from selenium.webdriver.support.select import Select
 import logging
 import inspect
 
+
 @pytest.mark.usefixtures("setup")
 class BaseClass:
     def getLogger(self):

@@ -1,5 +1,11 @@
 pipeline {
     agent  any
+    {
+
+    node('MYNODE')
+
+{ bat ''echo ON ''' }
+    }
     stages {
         stage('Test') {
             steps {

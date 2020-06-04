@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8fc71f56-68b9-4373-9424-88f51d771264" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/CheckoutPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/CheckoutPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pageObjects/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/pageObjects/HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_Homepage.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_Homepage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_e2e.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_e2e.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jenkinsfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -38,11 +34,11 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/jenkinsfile.txt" />
         <option value="$PROJECT_DIR$/jenkinsfile.txt" />
         <option value="$PROJECT_DIR$/utilities/BaseClass.py" />
-        <option value="$PROJECT_DIR$/Jenkinsfile.txt" />
         <option value="$PROJECT_DIR$/pageObjects/CheckoutPage.py" />
         <option value="$PROJECT_DIR$/pageObjects/HomePage.py" />
         <option value="$PROJECT_DIR$/tests/test_e2e.py" />
         <option value="$PROJECT_DIR$/tests/test_Homepage.py" />
+        <option value="$PROJECT_DIR$/Jenkinsfile.txt" />
       </list>
     </option>
   </component>
@@ -447,11 +443,26 @@
       <option name="project" value="LOCAL" />
       <updated>1591306410081</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="jenkins pipeline file modified">
+      <created>1591312154680</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1591312154680</updated>
+    </task>
+    <task id="LOCAL-00047" summary="jenkins pipeline file modified">
+      <created>1591312669231</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1591312669231</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1096" height="864" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35660377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -555,8 +566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jenkinsfile.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="136">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>

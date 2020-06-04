@@ -5,8 +5,8 @@ agent any
 
             steps {
                 bat script: '''
-                    requirements.txt;
-                    py.test tests/test_e2e.py'''
+                    py.test tests/test_e2e.py
+                    py.test tests/test_Homepage.py'''
 
             }
             post {
